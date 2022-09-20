@@ -10,8 +10,9 @@ int main() {
 
 
 
-    Imagen imagen;
+    Imagen imagen1;
     ContenedorImagenes imagenes(10000);
+
 
     std::ifstream is;
     std::stringstream  columnas;

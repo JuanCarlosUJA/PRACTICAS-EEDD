@@ -25,6 +25,8 @@ public:
     ContenedorImagenes(const ContenedorImagenes &origen);
     ContenedorImagenes(const ContenedorImagenes &origen,unsigned int posicionInicial, unsigned int numElementos);
 
+    ContenedorImagenes& operator= (const ContenedorImagenes &otro);
+    void asigna(const Imagen &dato,unsigned int pos);
     virtual ~ContenedorImagenes();
 
 };
