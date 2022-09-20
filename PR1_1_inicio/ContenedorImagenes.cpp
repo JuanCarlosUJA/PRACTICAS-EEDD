@@ -21,6 +21,7 @@ ContenedorImagenes::ContenedorImagenes(unsigned int tamMax):_tam(tamMax), _num_e
 ContenedorImagenes::ContenedorImagenes(const ContenedorImagenes &c):_tam(c._tam),_num_elementos(c._num_elementos) {
     _imagenes = new Imagen[_tam];
     for(int i=0;i<_num_elementos;++i){
+        c._imagenes[i] = _imagenes[i]; //Necesario sobrecargar el operador de asignación
 
     }
 
@@ -34,5 +35,6 @@ ContenedorImagenes::ContenedorImagenes(const ContenedorImagenes &origen, unsigne
 
 ContenedorImagenes::~ContenedorImagenes() {
     delete [] _imagenes;
+    _imagenes = nullptr;
 
 }
