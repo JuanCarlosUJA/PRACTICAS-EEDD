@@ -7,6 +7,7 @@
 #include "Imagen.h"
 
 int main() {
+    //
 
 
     Imagen imagen;

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/admin/Desktop/PR1_1_inicio
+# Install script for directory: C:/Users/soria/OneDrive/Escritorio/Practica1EEDD/PRACTICAS-EEDD/PR1_1_inicio
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Program Files/CodeBlocks/MinGW/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/soria/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.75/bin/mingw/bin/objdump.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/admin/Desktop/PR1_1_inicio/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/soria/OneDrive/Escritorio/Practica1EEDD/PRACTICAS-EEDD/PR1_1_inicio/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
