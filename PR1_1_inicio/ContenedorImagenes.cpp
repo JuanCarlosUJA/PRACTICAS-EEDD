@@ -38,11 +38,8 @@ ContenedorImagenes::ContenedorImagenes(const ContenedorImagenes &origen, unsigne
     }
 
     _imagenes = new Imagen[_tam];
-    int aux = posicionInicial;
     for(int i=0;i<numElementos;++i){
-        _imagenes[i] = origen._imagenes[aux];
-        ++aux;
-
+        _imagenes[i] = origen._imagenes[posicionInicial + i];
     }
 
 
