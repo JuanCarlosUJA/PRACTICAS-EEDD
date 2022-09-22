@@ -27,6 +27,10 @@ public:
 
     ContenedorImagenes& operator= (const ContenedorImagenes &otro);
     void asigna(const Imagen &dato,unsigned int pos);
+    Imagen recupera(unsigned int pos);
+    void ordenar();
+    void ordenarRev();
+    unsigned int tam();
     virtual ~ContenedorImagenes();
 
 };
