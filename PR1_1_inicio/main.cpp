@@ -10,7 +10,7 @@ int main() {
 
 
 
-    Imagen imagen1;
+    Imagen imagen2;
     ContenedorImagenes imagenes(10000);
 
 
